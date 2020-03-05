@@ -35,11 +35,11 @@ Domain Path:      /languages/
    GENERAL
    ========================================================================== */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #a0a6ad;
   font-size: 14px;
   font-weight: 400;
-  background: #fff;
+  background: #f9feff;
   overflow-x: hidden;
 }
 
@@ -51,11 +51,12 @@ p {
   font-size: 14px;
   color: #a0a6ad;
   line-height: 26px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-bottom: 0;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: #3c9cfd;
 }
 
@@ -67,8 +68,12 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-h1, h2, h3, h4, h5 {
-  font-family: 'Poppins', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 700;
   color: #191c1e;
@@ -93,7 +98,8 @@ a:not([href]):not([tabindex]) {
   color: #fff;
 }
 
-a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+a:not([href]):not([tabindex]):focus,
+a:not([href]):not([tabindex]):hover {
   color: #fff;
 }
 
@@ -122,7 +128,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 .section-header .section-title {
   font-size: 30px;
   margin-bottom: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -142,7 +148,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   font-size: 14px;
   padding: 10px 30px;
   border-radius: 30px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   letter-spacing: 1px;
   font-weight: 600;
   color: #fff;
@@ -179,7 +185,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .btn-effect:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 0;
   height: 100%;
@@ -291,7 +297,7 @@ button:focus {
 
 .btn-subtitle {
   color: #191c1e;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background: #dbecff;
   text-align: center;
   border-radius: 30px;
@@ -362,67 +368,67 @@ button:focus {
 }
 
 .facebook a {
-  color: #4867AA;
+  color: #4867aa;
 }
 
 .facebook a:hover {
-  background: #4867AA;
+  background: #4867aa;
 }
 
 .twitter a {
-  color: #1DA1F2;
+  color: #1da1f2;
 }
 
 .twitter a:hover {
-  background: #1DA1F2;
+  background: #1da1f2;
 }
 
 .google-plus a {
-  color: #DD4D42;
+  color: #dd4d42;
 }
 
 .google-plus a:hover {
-  background: #DD4D42;
+  background: #dd4d42;
 }
 
 .youtube a {
-  color: #DF2926;
+  color: #df2926;
 }
 
 .youtube a:hover {
-  background: #DF2926;
+  background: #df2926;
 }
 
 .linkedin a {
-  color: #007BB6;
+  color: #007bb6;
 }
 
 .linkedin a:hover {
-  background: #007BB6;
+  background: #007bb6;
 }
 
 .pinterest a {
-  color: #BD081C;
+  color: #bd081c;
 }
 
 .pinterest a:hover {
-  background: #BD081C;
+  background: #bd081c;
 }
 
 .dribbble a {
-  color: #EA4C89;
+  color: #ea4c89;
 }
 
 .dribbble a:hover {
-  background: #EA4C89;
+  background: #ea4c89;
 }
 
 .behance a {
-  color: #0B7CFF;
+  color: #0b7cff;
 }
 
 .behance a:hover {
-  background: #0B7CFF;
+  background: #0b7cff;
 }
 
 /* Preloader */
@@ -445,7 +451,8 @@ button:focus {
   margin: 0 auto;
 }
 
-#loader-1:before, #loader-1:after {
+#loader-1:before,
+#loader-1:after {
   content: "";
   position: absolute;
   top: -10px;
@@ -481,8 +488,8 @@ button:focus {
   }
 }
 
-/* ========================================================================== 
-   Scroll To Up 
+/* ==========================================================================
+   Scroll To Up
    ========================================================================== */
 .back-to-top {
   display: none;
@@ -518,7 +525,11 @@ button:focus {
 }
 
 .menu-bg {
-  background: -webkit-linear-gradient(left, #3c96ff 0%, #2dfbff 100%) !important;
+  background: -webkit-linear-gradient(
+    left,
+    #3c96ff 0%,
+    #2dfbff 100%
+  ) !important;
   background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%) !important;
   box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.1);
   z-index: 9999;
@@ -555,12 +566,12 @@ button:focus {
   font-size: 15px;
   padding: 5px 0px;
   margin-left: 30px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   position: relative;
 }
 
 .navbar-expand-md .navbar-nav .nav-link:before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -733,7 +744,7 @@ button:focus {
 }
 
 /* ==========================================================================
-   About 
+   About
    ========================================================================== */
 #about {
   padding-bottom: 80px !important;
@@ -775,7 +786,7 @@ button:focus {
 }
 
 /* ==========================================================================
-   Clients 
+   Clients
    ========================================================================== */
 #clients {
   background: #ffffff;
@@ -784,9 +795,9 @@ button:focus {
 #clients .client-item-wrapper {
   text-align: center;
   margin-bottom: 15px;
-  -moz-transition: all .6s ease;
-  -webkit-transition: all .6s ease;
-  transition: all .6s ease;
+  -moz-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
 }
 
 #clients .client-item-wrapper img {
@@ -795,7 +806,7 @@ button:focus {
 }
 
 #clients #clients-scroller img:hover {
-  opacity: 1.0;
+  opacity: 1;
 }
 
 #clients #clients-scroller .owl-pagination {
@@ -1214,9 +1225,21 @@ button:focus {
   width: 40px;
   height: 40px;
   display: block !important;
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%) !important;
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%) !important;
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%) !important;
+  background-image: -moz-linear-gradient(
+    0deg,
+    #3c96ff 0%,
+    #2dfbff 100%
+  ) !important;
+  background-image: -webkit-linear-gradient(
+    0deg,
+    #3c96ff 0%,
+    #2dfbff 100%
+  ) !important;
+  background-image: -ms-linear-gradient(
+    0deg,
+    #3c96ff 0%,
+    #2dfbff 100%
+  ) !important;
   text-align: center;
   display: inline-block;
   opacity: 1 !important;
@@ -1437,7 +1460,8 @@ button:focus {
   -o-transition: all 0.4s ease-in-out;
 }
 
-.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
   background: #3c9cfd;
 }
 
@@ -1450,9 +1474,9 @@ button:focus {
   text-align: center;
   border-radius: 5px;
   -webkit-transition: background-image 0.3s ease-out;
-  -moz-transition: background-image 0.3s  ease-out;
-  -o-transition: background-image 0.3s  ease-out;
-  transition: background-image 0.3s  ease-out;
+  -moz-transition: background-image 0.3s ease-out;
+  -o-transition: background-image 0.3s ease-out;
+  transition: background-image 0.3s ease-out;
   box-shadow: 0px 0px 43px 0px rgba(131, 131, 131, 0.23);
 }
 
@@ -1475,7 +1499,7 @@ button:focus {
   font-size: 12px;
   line-height: 15px;
   font-weight: 400;
-  color: #A2A2A2;
+  color: #a2a2a2;
 }
 
 .pricing-table .pricing-details h2 {
@@ -1495,9 +1519,9 @@ button:focus {
 .pricing-active {
   color: #fff;
   -webkit-transition: background-image 0.3s ease-out;
-  -moz-transition: background-image 0.3s  ease-out;
-  -o-transition: background-image 0.3s  ease-out;
-  transition: background-image 0.3s  ease-out;
+  -moz-transition: background-image 0.3s ease-out;
+  -o-transition: background-image 0.3s ease-out;
+  transition: background-image 0.3s ease-out;
   background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
   background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
   background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
@@ -1590,7 +1614,7 @@ button:focus {
 
 .shot-item .single-content {
   background-color: rgba(22, 26, 39, 0.7);
-  opacity: 0.90;
+  opacity: 0.9;
   height: 100%;
   left: 0;
   opacity: 0;
@@ -1730,11 +1754,13 @@ button:focus {
   animation-name: fadeIn;
 }
 
-#carousel-area .carousel-control-next, #carousel-area .carousel-control-prev {
+#carousel-area .carousel-control-next,
+#carousel-area .carousel-control-prev {
   opacity: 1;
 }
 
-#carousel-area .carousel-control-next i, #carousel-area .carousel-control-prev i {
+#carousel-area .carousel-control-next i,
+#carousel-area .carousel-control-prev i {
   width: 48px;
   line-height: 48px;
   height: 48px;
@@ -1818,14 +1844,15 @@ button:focus {
   margin-left: 10px;
 }
 
-.left, .right {
+.left,
+.right {
   cursor: pointer;
   font-size: 30px;
   color: #3c9cfd;
 }
 
 /* ==========================================================================
-   Blog 
+   Blog
    ========================================================================== */
 #blog .blog-item-wrapper {
   background: #fff;
@@ -1918,7 +1945,8 @@ button:focus {
   box-shadow: none;
 }
 
-.btn.disabled, .btn:disabled {
+.btn.disabled,
+.btn:disabled {
   opacity: 1;
 }
 
@@ -2113,9 +2141,9 @@ textarea {
   line-height: 32px;
   text-align: center;
   display: inline-block;
-  -webkit-transition: all .4s ease-in-out;
-  -moz-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .contact-social li .facebook:hover {
@@ -2150,7 +2178,7 @@ footer .footer-Content {
   background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
   background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
   padding: 60px 0 0px;
-  color: #546E7A;
+  color: #546e7a;
 }
 
 footer .footer-Content h2 {
@@ -2199,9 +2227,9 @@ footer .menu li a:hover {
   font-size: 14px;
   text-align: center;
   display: inline-block;
-  -webkit-transition: all .4s ease-in-out;
-  -moz-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .footer-social li .facebook:hover {
