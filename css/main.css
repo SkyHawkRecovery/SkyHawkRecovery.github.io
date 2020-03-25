@@ -123,6 +123,7 @@ a:not([href]):not([tabindex]):hover {
   margin-bottom: 50px;
   text-align: center;
   position: relative;
+  padding-top: 30px;
 }
 
 .section-header .section-title {
