@@ -1289,6 +1289,7 @@ button:focus {
 }
 
 .single-team img {
+  padding-top: 15px;
   width: 100%;
 }
 
@@ -1309,7 +1310,11 @@ button:focus {
 .single-team .team-details .team-title {
   margin-bottom: 5px;
   font-size: 18px;
-  color: #263238;
+  /* color: #263238; */
+  background: linear-gradient(120deg, #3c99ff 0%, #2df8ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .single-team .team-details p {
