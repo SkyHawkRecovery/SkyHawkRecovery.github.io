@@ -10,3 +10,21 @@ html{
     display: flex;
     flex-direction: column;
 }
+
+@media (max-width: 770px){
+    .c_img{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+@media (min-width: 770px) and (max-width: 990px){
+    .c_img{
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+@media (min-width: 1024px){
+    .c_img{
+        width: 100%;
+    }
+}

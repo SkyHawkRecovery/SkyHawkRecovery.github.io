@@ -1150,9 +1150,9 @@ button:focus {
   border-radius: 50px;
   text-align: center;
   position: relative;
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient(-90deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -webkit-linear-gradient(-90deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -ms-linear-gradient(-90deg, #3c96ff 0%, #2dfbff 100%);
   z-index: 1;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
