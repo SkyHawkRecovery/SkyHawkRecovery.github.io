@@ -1,0 +1,60 @@
+[
+    {
+        "brand": "Fredom",
+        "model": "251",
+        "baseURL": "https://sourceforge.net/projects/shrp/files/Freedom/",
+        "latestBuild": "https://sourceforge.net/projects/shrp/files/Freedom/SHRP2.4_nasdnlas.zip",
+        "mockSrc": "img/Devices/Simple_2.png",
+        "maintainer": "Guunachoda",
+        "buildNo": "18696969",
+        "currentVersion": "2.4",
+        "is_ab": false
+    },
+    {
+        "brand": "Fredom",
+        "model": "251",
+        "baseURL": "https://sourceforge.net/projects/shrp/files/Freedom/",
+        "latestBuild": "https://sourceforge.net/projects/shrp/files/Freedom/SHRP2.4_nasdnlas.zip",
+        "mockSrc": "img/Devices/Simple_2.png",
+        "maintainer": "Guunachoda",
+        "buildNo": "18696969",
+        "currentVersion": "2.4",
+        "is_ab": false
+    },
+    {
+        "brand": "Google",
+        "model": "251",
+        "baseURL": "https://sourceforge.net/projects/shrp/files/Freedom/",
+        "latestBuild": "https://sourceforge.net/projects/shrp/files/Freedom/SHRP2.4_nasdnlas.zip",
+        "mockSrc": "img/Devices/Simple_2.png",
+        "maintainer": "Guunachoda",
+        "buildNo": "18696969",
+        "currentVersion": "2.4",
+        "is_ab": false
+    },
+    {
+        "brand": "China",
+        "model": "251",
+        "baseURL": "https://sourceforge.net/projects/shrp/files/Freedom/",
+        "latestBuild": "https://sourceforge.net/projects/shrp/files/Freedom/SHRP2.4_nasdnlas.zip",
+        "mockSrc": "img/Devices/Simple_2.png",
+        "maintainer": "Guunachoda",
+        "buildNo": "18696969",
+        "currentVersion": "2.4",
+        "is_ab": false
+    },
+    {
+        "brand": "China",
+        "model": "251",
+        "baseURL": "https://sourceforge.net/projects/shrp/files/Freedom/",
+        "latestBuild": "https://sourceforge.net/projects/shrp/files/Freedom/SHRP2.4_nasdnlas.zip",
+        "mockSrc": "img/Devices/Simple_2.png",
+        "maintainer": "Guunachoda",
+        "buildNo": "18696969",
+        "currentVersion": "2.4",
+        "is_ab": false
+    },
+    {
+        "brand": "Dummy"
+    }
+]
