@@ -6,6 +6,7 @@ async function fetchData(url){
     init(data)
 }
 //fetchData('js/deviceData.json');
+fetchData('https://raw.githubusercontent.com/SkyHawkRecovery/SkyHawkRecovery.github.io/master/js/deviceData.json');
 
 function init(x){
     window.DATA=x;
@@ -59,9 +60,9 @@ function createCard(CARDDATA){
     var dd4=createDivByClass(["team-inner"]);
     var h=document.createElement("h4");
     h.classList.add("team-title");
-    h.innerHTML=CARDDATA.brand+" "+CARDDATA.model;
+    h.innerHTML=CARDDATA.model;
     var p1=document.createElement("p");
-    p1.innerHTML=CARDDATA.maintainer;
+    p1.innerHTML="Maintainer: "+CARDDATA.maintainer;
     var p2=document.createElement("p");
     p2.innerHTML="Version: "+CARDDATA.currentVersion;
     dd4.appendChild(h);
