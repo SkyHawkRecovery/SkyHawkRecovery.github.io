@@ -6,7 +6,7 @@ async function fetchData(url){
     init(data)
 }
 //fetchData('js/deviceData.json');
-//fetchData('https://raw.githubusercontent.com/SkyHawkRecovery/SkyHawkRecovery.github.io/master/js/deviceData.json');
+fetchData('https://raw.githubusercontent.com/SkyHawkRecovery/SkyHawkRecovery.github.io/master/js/deviceData.json');
 
 function init(x){
     window.DATA=x;
