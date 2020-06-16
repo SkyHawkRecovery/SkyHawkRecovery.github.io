@@ -5,4 +5,34 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .cardWrapper {
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+  }
+  .single-team {
+    margin-bottom: 30px;
+    min-width: 280px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .cardWrapper {
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+  }
+  .single-team {
+    margin-bottom: 30px;
+    min-width: 350px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
 /*# sourceMappingURL=c_deviceStyle.css.map */

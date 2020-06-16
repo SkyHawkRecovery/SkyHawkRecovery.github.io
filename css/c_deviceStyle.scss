@@ -5,3 +5,26 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+@media (min-width: 320px) and (max-width: 400px) {
+    .cardWrapper{
+        display: grid;
+        place-items: center;
+    }
+    .single-team {
+        margin-bottom: 30px;
+        min-width: 280px;
+        align-self: center;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+    .cardWrapper{
+        display: grid;
+        place-items: center;
+    }
+    .single-team {
+        margin-bottom: 30px;
+        min-width: 350px;
+        align-self: center;
+    }
+}

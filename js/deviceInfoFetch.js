@@ -43,7 +43,7 @@ function createDeviceSection(DATA,fpos,lpos){
 
 
 function createCard(CARDDATA){
-    var d1=createDivByClass(["col-lg-3", "col-md-6", "col-xs-12"]);//CardContainer
+    var d1=createDivByClass(["col-lg-3", "col-md-6", "col-xs-12", "cardWrapper"]);//CardContainer
     var d2=createDivByClass(["single-team", "wow", "fadeInUp"]);
     d2.setAttribute("data-wow-delay","0.2s");
     //TOP PART
