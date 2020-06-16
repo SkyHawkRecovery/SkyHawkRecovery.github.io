@@ -50,15 +50,13 @@ function createCard(CARDDATA){
     var d3=createDivByClass(["team-thumb"]);
     var a=document.createElement("a");
     a.setAttribute("href", CARDDATA.baseURL);
-    /*if(CARDDATA.maintainer=="Aryan Arora"){
-        var img=document.createElement("div");
-        img.classList.add('svgMockup');
-        //img.setAttribute("src", "img/Devices/5z.svg");
-        img.style["backgroundImage"]="url('img/Devices/5z.svg')";
-    }else{*/
-        var img=document.createElement("img");
-        img.setAttribute("src", CARDDATA.mockSrc);
-    //}
+    /*
+    var img=document.createElement("img");
+    img.setAttribute("src", CARDDATA.mockSrc);
+    */
+    var img=document.createElement("div");
+    img.classList.add('svgMockup');
+    img.style["backgroundImage"]="url('"+CARDDATA.mockSrc+"')";
     a.appendChild(img);
     d3.appendChild(a);
 

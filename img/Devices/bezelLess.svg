@@ -1,1 +1,24 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 391.92 792.39"><defs><style>.cls-1{fill:none;stroke:#1a1a1a;stroke-miterlimit:10;stroke-width:16px;}.cls-2{fill:#1a1a1a;}</style></defs><title>BazzleLess</title><path class="cls-1" d="M658.39,899.51l-290.95.69a41.67,41.67,0,0,1-41.76-41.57L324,166.25a41.67,41.67,0,0,1,41.57-41.76l290.95-.69a41.67,41.67,0,0,1,41.76,41.57L700,857.75A41.67,41.67,0,0,1,658.39,899.51Z" transform="translate(-316.04 -115.8)"/><path class="cls-2" d="M333.61,847.24a33.18,33.18,0,0,0,12.26,24,37.52,37.52,0,0,0,20.94,7.85H659.54a37,37,0,0,0,21.06-8.29A32.5,32.5,0,0,0,692,847.24V866a30.08,30.08,0,0,1-7.85,20.58c-9.09,10-21.67,10.77-23.83,10.87L366,898.25c-2.34-.1-14.38-.81-23.62-10.18a30.71,30.71,0,0,1-8.86-20.54Q333.54,857.38,333.61,847.24Z" transform="translate(-316.04 -115.8)"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 391.9 792.4" style="enable-background:new 0 0 391.9 792.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#1A1A1A;stroke-width:16;stroke-miterlimit:10;}
+	.st1{fill:#1A1A1A;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
+</style>
+<title>BazzleLess</title>
+<path class="st0" d="M342.4,783.7l-291,0.7c-23,0-41.7-18.6-41.8-41.6L8,50.4c0-23,18.6-41.7,41.6-41.8l291-0.7
+	c23,0,41.7,18.6,41.8,41.6L384,742C384,765,365.4,783.7,342.4,783.7L342.4,783.7z"/>
+<path class="st1" d="M17.6,731.4c0.5,9.4,5,18.1,12.3,24c6,4.7,13.3,7.4,20.9,7.8h292.7c7.7-0.5,15.1-3.4,21.1-8.3
+	c6.9-5.9,11.1-14.5,11.4-23.6v18.8c0.1,7.6-2.7,15-7.8,20.6c-9.1,10-21.7,10.8-23.8,10.9L50,782.5c-2.3-0.1-14.4-0.8-23.6-10.2
+	c-5.4-5.5-8.6-12.8-8.9-20.5C17.5,745,17.5,738.2,17.6,731.4z"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="195.95" y1="476.94" x2="195.95" y2="318.2982" gradientTransform="matrix(1 0 0 -1 0 794)">
+	<stop  offset="0" style="stop-color:#158FFF"/>
+	<stop  offset="0.9427" style="stop-color:#00FFE0"/>
+</linearGradient>
+<path class="st2" d="M205.9,375.4c2.9,3.7-0.1,10.4-1.1,12.6c-8.9,20.3-43.9,31.2-74.6,45.7c-37.5,17.7-60,41.1-59.3,42
+	s30.2-25.3,76.2-39.4c14.7-4.5,57.9-6.3,89.1-25.6c12.5-7.7,27.5-17.9,40.7-36.4c12.8-18,23-43,37.3-42.5c3.3,0.1,6.3,1.5,6.8,0.5
+	c1.1-2.1-10.6-14.8-22.6-15.2c-18.5-0.7-28,26.4-45.7,31.5c-25.7,8.3-37.8-22.4-80.4-14.7c-29.7,7.9-26.2,40-56.7,51.5
+	c-16.7,6.3-33.1,1.1-33.6,3.7c-0.8,4,30.4,22,57.2,12.6c17.7-6.2,24.2-21.1,49.6-27.3C200.2,371.6,204.3,373.3,205.9,375.4z"/>
+</svg>

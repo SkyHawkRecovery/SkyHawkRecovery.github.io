@@ -1312,7 +1312,7 @@ button:focus {
   margin-bottom: 5px;
   font-size: 18px;
   /* color: #263238; */
-  background: linear-gradient(120deg, #3c99ff 0%, #2df8ff 100%);
+  background: linear-gradient(120deg, #3c99ff 0%, #00cce1 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -2229,15 +2229,20 @@ footer .menu li a:hover {
 }
 
 .footer-social li a {
-  color: #fff;
+  color: #004f57;
   font-size: 14px;
   text-align: center;
   display: inline-block;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out, transform 280ms;
 }
 
+.footer-social li a:hover{
+  transform: scale(120%);
+  transform-origin: 50%;
+  color: #001a1d;
+}
 .footer-social li .facebook:hover {
   color: #3b5998;
 }
